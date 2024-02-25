@@ -12,7 +12,7 @@ function init(){
 function cronometrar(){
     escribir();
     id = setInterval(escribir,1000);
-    document.querySelector(".start").removeEventListener("click",cronometrar);
+    document.querySelector("#btnPlay").removeEventListener("click",cronometrar);
 }
 
 function escribir(){
